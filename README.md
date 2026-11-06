@@ -47,7 +47,7 @@ IntelliJ making suggestions when you have an error (by hovering over the error l
 
 ## Part 1: Test plan
 
-Complete `ArrayFeedingRoundTestPlan.md` with exactly one test case for each of
+Complete `------` with exactly one test case for each of
 these five methods specifically:
 
 1. `-----`
@@ -88,12 +88,12 @@ You do not need to create separate test cases for them.
 
 Once you finish, you need to do a few things, **in this order**:
 
-1. Commit + push all changes to GitHub
+1. Commit + push all changes to GitHub **FROM IntelliJ SPECIFICALLY! COMMITTING IN GITHUB'S TEXT EDITOR WILL RESULT IN A SEVERE PENALTY**
 2. Submit the entire repo to Gradescope. Do not upload individual files.
-    1. Submit here: https://www.gradescope.com/courses/1385257/assignments/9014862/submissions
+    1. Submit here: `-----`
 3. Stop your zoom cloud recording
 4. submit the zoom cloud recording to canvas
     1. Find the recording here (click the share arrow, even if it's still uploading/processing, and copy link): https://clemson.zoom.us/recording/
-    2. Submit here: https://clemson.instructure.com/courses/287521/quizzes/696578
+    2. Submit here: `-----`
 5. **Sign out at the front with Matthew**
 6. Leave.
