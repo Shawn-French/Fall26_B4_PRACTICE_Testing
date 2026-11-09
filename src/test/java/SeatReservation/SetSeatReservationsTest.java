@@ -136,7 +136,7 @@ public class SetSeatReservationsTest {
     }
 
     //Case origin: US-04-AC-03
-    //Input: 10
+    //Input: ArraySeatReservations(), cancleReservation, reserveSeat, isReserved, getSeatcount
     //Input State: NA
     //Output: seat count of 10 with 4 being reserved
     //Output State: 9 available seats, total seat count = 10
@@ -151,6 +151,22 @@ public class SetSeatReservationsTest {
         assertFalse(sr.isReserved(2));
         assertTrue(sr.isReserved(4));
         assertEquals(10, sr.getSeatCount());
+    }
+
+    //Case origin: US-05-AC-01
+    //Input:reserveSeat(), getAvailableSeatCount()
+    //Input State: 
+    //Output: getAvailableSeatCount() = 8
+    //Output State:
+    @Test
+    public void GetAvailableSeatCountWorks()
+    {
+        ISeatReservations sr = new ArraySeatReservations(10);
+
+        sr.reserveSeat(2);
+        sr.reserveSeat(5);
+
+        assertEquals(8, sr.getAvailableSeatCount());
     }
 
 
